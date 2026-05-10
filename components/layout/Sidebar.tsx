@@ -11,6 +11,7 @@ const navItems = [
   { id: 'brands', label: 'Marcas', icon: '⬡', path: '/brands' },
   { id: 'billing', label: 'Billing', icon: '◈', path: '/billing' },
   { id: 'predictive', label: 'Motor Predictivo', icon: '⚡', path: '/predictive', badge: 'NEW' },
+  { id: 'trends', label: 'Trend Radar', icon: '📡', path: '/trends', badge: 'LIVE' },
 ]
 
 export default function Sidebar() {
@@ -57,6 +58,7 @@ export default function Sidebar() {
               <span style={{ flex:1 }}>{item.label}</span>
               {item.badge === 'IA' && <span style={{ fontSize:'8px', background:'rgba(184,107,255,0.15)', color:'#b86bff', padding:'1px 5px', borderRadius:'20px' }}>IA</span>}
               {item.badge === 'NEW' && <span style={{ fontSize:'8px', background:'rgba(61,245,160,0.15)', color:'#3df5a0', padding:'1px 5px', borderRadius:'20px' }}>NEW</span>}
+              {item.badge === 'LIVE' && <span style={{ fontSize:'8px', background:'rgba(255,107,74,0.15)', color:'#ff6b4a', padding:'1px 5px', borderRadius:'20px' }}>LIVE</span>}
             </div>
           )
         })}

@@ -10,6 +10,7 @@ const navItems = [
   { id: 'agent', label: 'Agente IA', icon: '◎', path: '/agent', badge: 'NEW' },
   { id: 'brands', label: 'Marcas', icon: '⬡', path: '/brands' },
   { id: 'billing', label: 'Billing', icon: '◈', path: '/billing' },
+  { id: 'predictive', label: 'Motor Predictivo', icon: '⚡', path: '/predictive', badge: 'NEW' },
 ]
 
 export default function Sidebar() {

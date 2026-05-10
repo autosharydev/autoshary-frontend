@@ -13,6 +13,7 @@ const navItems = [
   { id: 'predictive', label: 'Motor Predictivo', icon: '⚡', path: '/predictive', badge: 'NEW' },
   { id: 'trends', label: 'Trend Radar', icon: '📡', path: '/trends', badge: 'LIVE' },
   { id: 'competitive', label: 'Radar Competitivo', icon: '🎯', path: '/competitive' },
+  { id: 'connections', label: 'Conexiones', icon: '🔗', path: '/connections' },
 ]
 
 export default function Sidebar() {

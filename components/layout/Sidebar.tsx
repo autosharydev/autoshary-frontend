@@ -9,6 +9,7 @@ const navItems = [
   { id: 'calendar', label: 'Calendario', icon: '📅', path: '/calendar' },
   { id: 'agent', label: 'Agente IA', icon: '◎', path: '/agent', badge: 'NEW' },
   { id: 'brands', label: 'Marcas', icon: '⬡', path: '/brands' },
+  { id: 'media', label: 'Media Library', icon: '🖼️', path: '/media' },
   { id: 'billing', label: 'Billing', icon: '◈', path: '/billing' },
   { id: 'predictive', label: 'Motor Predictivo', icon: '⚡', path: '/predictive', badge: 'NEW' },
   { id: 'trends', label: 'Trend Radar', icon: '📡', path: '/trends', badge: 'LIVE' },

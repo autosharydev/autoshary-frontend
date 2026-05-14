@@ -6,6 +6,7 @@ import { useAuthStore } from '@/store/authStore'
 const navItems = [
   { id: 'dashboard', label: 'Dashboard', icon: '⊞', path: '/dashboard' },
   { id: 'generate', label: 'Generar contenido', icon: '✦', path: '/generate', badge: 'IA' },
+  { id: 'drafts', label: 'Borradores', icon: '📝', path: '/drafts' },
   { id: 'calendar', label: 'Calendario', icon: '📅', path: '/calendar' },
   { id: 'agent', label: 'Agente IA', icon: '◎', path: '/agent', badge: 'NEW' },
   { id: 'brands', label: 'Marcas', icon: '⬡', path: '/brands' },
